@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Bebas Neue', cursive;
+	color: rgb(254, 254, 254);
+}
+body{
+	
+	width: 98.5vw;
+	height: 1000px;
+	min-height: 100vw;
+	max-height: 10000px;
+	background: url(https://lh3.google.com/pw/AM-JKLU9qRhXP2dcb7diwvN_-AF8LQcYArH56p-_I_JcWiYy5L4wR6HyY3oEI75euHb111Ywut5Ijintn_fHEbbZiJOH9PohxRE=w899-h599-no?authuser=0);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+
+
+}	
+
+.logo {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background: url(https://img.freepik.com/foto-gratis/textura-fondo_1404-99.jpg?size=338&ext=jpg&ga=GA1.2.821352961.1635407466 )  ;
+	border: solid 5px #444341;
+	margin: 5px;
+	margin-left: 10px;
+	/*background-size: 98vw 250px; (asi se le da el tamaño al fondo*/
+}
+
+#foto__logo {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: solid 3px #444341;
+	margin-left: 250;
+
+}
+
+
+.logo__redes {
+	position: absolute;
+	right: 0;
+	font-size: 20px;
+	min-width: 50px;
+	max-height: 100px;
+	flex-grow: 1;
+}
+
+.redes__item__w{
+	width: 70px;
+	height: 70px;
+	margin-top: 30px;
+}
+
+.redes__item__i{
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+}
+
+
+.galeria {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 98vw;
+	height: 1000px;
+	max-height: 10000px;
+	background: ;
+	margin-top: 20px;
+	margin-left: 7px;
+	flex-wrap: wrap;
+	
+	
+}
+
+.galeria__item1 {
+	position: relative;
+	width: 350px;
+	min-width: 200px;
+	max-width: 500px;
+	height: 900px;
+	max-height: 1000px;	
+	margin: 5px;
+	text-align: center;
+	color: white;
+	background: rgb(75, 110, 40);
+	border: solid 5px #444341;
+	flex-grow: 1;
+
+	
+}
+
+.galeria__item2 {
+	position: relative;
+	width: 350px;
+	min-width: 200px;
+	max-width: 500px;
+	height: 900px;	
+	max-height: 1000px;
+	margin: 5px;
+	text-align: center;
+	color: white;
+	background: rgb(75, 110, 40);
+	border: solid 5px #444341;
+	flex-grow: 1;
+	
+	
+	
+}
+
+.galeria__item3 {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 350px;
+	min-width: 200px;
+	max-width: 500px;
+	height: 900px;	
+	max-height: 1000px;
+	margin: 5px;
+	text-align: center;
+	color: white;
+	background: rgb(75, 110, 40);
+	border: solid 5px #444341;
+	flex-grow: 1;
+
+	
+}
+h3 {
+	font-size: 25px;
+}
+
+footer {
+	/*border: solid 5px #444341;*/
+	position: absolute;
+	object-fit: contain;
+	object-position: center;
+	bottom: 0;
+	width: 100%;
+	height: 300px;
+	color: white;
+	text-align: center;
+	bottom: 0;
+}
+
+.footer__text {
+	top: 230px;
+	position: relative;
+	color: white;
+	font-size: 20px;
+}
+
+.footer__img {
+	bottom: -5px;
+	position: absolute;
+	border-top: solid 5px #444341; 
+	trans
+}
